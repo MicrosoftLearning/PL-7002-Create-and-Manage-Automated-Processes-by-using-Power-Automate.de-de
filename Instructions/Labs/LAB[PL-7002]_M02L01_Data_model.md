@@ -10,18 +10,18 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 ## Lernziele
 
-- So erstellen Sie Tabellen und Spalten in Microsoft Dataverse
-- So erstellen Sie eine Beziehung mit einer Suchspalte
+- Gewusst wie: Erstellen von Tabellen und Spalten in Microsoft Dataverse
+- Gewusst wie: Erstellen einer Beziehung mit einer Lookupspalte
 
 ## Weiterführende Schritte des Lab
 
 - Eine benutzerdefinierte Tabelle erstellen
 - Einer Tabelle Spalten hinzufügen
-- Erstellen einer Beziehung mithilfe einer Suchspalte
+- Erstellen einer Beziehung mithilfe einer Lookupspalte
   
 ## Voraussetzungen
 
-- Sie müssen **Lab 0: Laborumgebung überprüfen** abgeschlossen haben.
+- Sie müssen Folgendes abgeschlossen haben: **Lab 0: Überprüfen der Labumgebung**
 
 ## Ausführliche Schritte
 
@@ -47,7 +47,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Wählen Sie **Speichern**.
 
-### Aufgabe 1.2: Primäre Spalte
+### Aufgabe 1.2: Primäre Spalte
 
 1. Wählen Sie das Dropdown-Caretzeichen neben **Neue Spalte** und danach **Spalte bearbeiten** aus.
 
@@ -65,13 +65,13 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
     ![Screenshot: Datenbereich](../media/data-pane.png)
 
-1. Geben Sie im Bereich **Neue Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
+1. Geben Sie im Bereich **Neue Spalte** die folgenden Werte ein, oder wählen Sie diese aus:
 
    1. Anzeigename: `Owner Name`
    1. Datentyp: **Einzelne Textzeile**
    1. Erforderlich: **Business erforderlich**
 
-    ![Screenshot des neuen Spaltenbereichs](../media/new-column-pane.png)
+    ![Screenshot des Bereichs „Neue Spalte“](../media/new-column-pane.png)
 
 1. Wählen Sie **Speichern**.
 
@@ -119,6 +119,8 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Format: **Text**
    1. Erforderlich: **Optional**
 
+1. Wählen Sie **Speichern**.
+
 ### Aufgabe 1.4: Hinzufügen einer Auswahlspalte
 
 1. Wählen Sie im Bereich **„Opportunity“-Spalten und -Daten** **+** aus, und geben Sie im Bereich **Neue Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
@@ -131,7 +133,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Geben Sie `New` für **Bezeichnung** ein, und geben Sie `1` für **Wert** ein.
 
-1. Wählen Sie **+ Neue Auswahl** aus, und geben Sie `Open` für **Bezeichnung** ein, und geben Sie `2` für **Wert** ein.
+1. Wählen Sie **+ Neue Auswahl** aus, und geben Sie `Open` für **Bezeichnung** sowie `2` für **Wert** ein.
 
 1. Wählen Sie **+ Neue Auswahl** aus, und geben Sie `Closed` für **Bezeichnung** ein, und geben Sie `3` für **Wert** ein.
 
@@ -141,11 +143,11 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Wählen Sie **Speichern**.
 
-## Übung 2: Erstellen einer Beziehung
+## Übung 2: Erstellen einer Beziehung
 
-### Aufgabe 2.1: Erstellen einer Suchspalte
+### Aufgabe 2.1: Erstellen einer Lookupspalte
 
-1. Navigieren Sie zum Power Apps Maker-Portal <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal unter <https://make.powerapps.com>.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
@@ -160,7 +162,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Erforderlich: **Optional**
    1. Verwandte Tabelle: **Konto**
 
-    ![Screenshot des Bereichs seiner neuen Suchspalte](../media/new-lookup.png)
+    ![Screenshot des Bereichs „Neue Lookupspalte“](../media/new-lookup.png)
 
 1. Wählen Sie **Speichern**.
 

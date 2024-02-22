@@ -19,25 +19,29 @@ In diesem Lab erstellen Sie eine SharePoint-Website und -Liste.
   
 ## Voraussetzungen
 
-- Sie müssen Folgendes abgeschlossen haben: **Lab 0: Lab-Umgebung überprüfen**
+- Sie müssen Folgendes abgeschlossen haben: **Lab 0: Überprüfen der Labumgebung**
 
 ## Ausführliche Schritte
 
-## Übung 1 – Erstellen einer SharePoint-Liste
+## Übung 1: Erstellen einer SharePoint-Liste
 
 ### Aufgabe 1.1 Erstellen einer SharePoint-Website
 
-1. Wählen Sie im [Power Apps Maker-Portal](https://make.powerapps.com) das **App-Startfeld** oben links im Browserfenster und dann **OneDrive** aus.
+1. Wählen Sie im [Power Apps Maker-Portal](https://make.powerapps.com) das **App-Startfeld** oben links im Browserfenster und dann **SharePoint** aus.
 
-1. Wählen Sie in SharePoint **+Website erstellen** aus.
+1. Wenn das Popupdialogfeld **Willkommen auf der SharePoint-Startseite** angezeigt wird, wählen Sie **X** aus, um das Dialogfeld zu schließen.
 
-1. Wählen Sie **Teamwebsiteaus**, **Standardteamvorlage** und dann **Vorlage verwenden** aus.
+1. Wählen Sie in SharePoint **+ Website erstellen** aus.
+
+1. Wählen Sie **Teamwebsite**, die Vorlage **Standardteam** und dann **Vorlage verwenden** aus.
 
 1. Geben Sie `Power Automate` als **Websitename** ein, und wählen Sie **Weiter** aus.
 
 1. Wählen Sie **Standort anlegen**.
 
 1. Wählen Sie **Fertig stellen**aus.
+
+1. Wenn das Popupdialogfeld **Mit dem Entwerfen Ihrer Website beginnen** angezeigt wird, schließen Sie das Dialogfeld.
 
 ### Aufgabe 1.2 Erstellen einer SharePoint-Liste
 
@@ -114,7 +118,7 @@ In diesem Lab erstellen Sie eine SharePoint-Website und -Liste.
 
    1. Titel =`Create Quote`
    1. Beschreibung =`No discount`
-   1. Name des Besitzers =`MOD Administrator`
+   1. Name des Besitzers = `MOD Administrator`
    1. Deadline =**Heute**
    1. Genehmigungsstatus =**Genehmigt**
 

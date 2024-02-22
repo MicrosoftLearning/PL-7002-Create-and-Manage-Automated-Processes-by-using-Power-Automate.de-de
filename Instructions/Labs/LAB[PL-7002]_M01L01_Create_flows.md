@@ -22,7 +22,7 @@ In diesem Lab erstellen Sie Cloud-Flows.
   
 ## Voraussetzungen
 
-- Sie müssen Folgendes abgeschlossen haben: **Lab 0: Lab-Umgebung überprüfen**
+- Sie müssen Folgendes abgeschlossen haben: **Lab 0: Überprüfen der Labumgebung**
 
 ## Ausführliche Schritte
 
@@ -31,6 +31,8 @@ In diesem Lab erstellen Sie Cloud-Flows.
 ### Aufgabe 1.1: Auswählen einer Vorlage
 
 1. Navigieren Sie zum Power Automate-Portal <https://make.powerautomate.com>.
+
+1. Wenn das Popupdialogfeld **Willkommen bei Power Automate** angezeigt wird, wählen Sie **Erste Schritte** aus.
 
 1. Wählen Sie die Umgebung **Dev One** aus.
 
@@ -53,6 +55,8 @@ In diesem Lab erstellen Sie Cloud-Flows.
 1. Wählen Sie **Erstellen** für **Benachrichtigungen** aus.
 
 1. Wählen Sie **Flow erstellen** aus.
+
+1. Wenn das Popupdialogfeld **Ihr Flow ist bereit** angezeigt wird, wählen Sie **Nicht mehr anzeigen** und **Verstanden** aus.
 
     ![Screenshot von Flow-Details](../media/flow-details.png)
 
@@ -144,6 +148,8 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Den Flow testen
 
+1. Wählen Sie **Test** und **Manuell**, und dann **Test** aus.
+
 1. Wählen Sie die Schaltfläche „Zurück“ **<-** oben links in der Befehlsleiste aus.
 
 ## Übung 3 – Erstellen eines Cloud-Flows von Grund auf neu
@@ -156,11 +162,11 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Wählen Sie im linken Menü die Registerkarte **+ Erstellen** aus.
 
-1. Wählen Sie dann **Automatisierter Cloud-Flow** aus.
+1. Wählen Sie **Automatisierter Cloud-Flow** aus.
 
 1. Geben Sie `Important email` als **Flowname** ein.
 
-1. Geben Sie `email` in das Suchfeld ein.
+1. Geben Sie `email` bei allen Triggern in die Suche ein.
 
 1. Wählen Sie **Bei Eingang einer neuen E-Mail (V3)** aus.
 

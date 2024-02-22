@@ -47,7 +47,7 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Wählen Sie den Schritt **Manuell einen Flow triggern** aus.
 
-1. Wählen Sie **Manuell einen Flow triggern** aus und geben Sie `Button clicked` ein.
+1. Wählen Sie den Schritt **Manuell einen Flow auslösen** und geben Sie `Button clicked` ein.
 
 1. Wählen Sie **Eingabe hinzufügen** aus.
 
@@ -85,11 +85,11 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Verwenden Sie Ihre Mandantenanmeldeinformationen.
 
-1. Wählen Sie **Neue Zeile hinzufügen** aus und geben Sie `New opportunity` ein.
+1. Wählen Sie den Schritt **Neue Zeile hinzufügen** und geben Sie `New opportunity` ein.
 
 1. Wählen Sie **Opportunities** als **Tabellennamen** aus.
 
-1. Wählen Sie Feld **Kunde** und dann das Symbol „Dynamischer Inhalt“ aus.
+1. Wählen Sie das Feld **Kunde**, das Symbol „Dynamischer Inhalt“ und dann **Weitere anzeigen** aus.
 
 1. Wählen Sie **Kundenname** aus.
 
@@ -99,15 +99,11 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Wählen Sie **Alle anzeigen** aus.
 
-1. Wählen Sie **Adressfeld** und das Symbol „Dynamischer Inhalt“ aus.
-
-1. Wählen Sie **vollständige Adresse** aus.
-
 1. Wählen Sie das Feld **Betrag** und dann das Symbol „Dynamischer Inhalt“ aus.
 
 1. Wählen Sie **Potenzielles Sonderangebot** aus.
 
-1. Wählen Sie das Feld **Notizen** und dann das Symbol „Dynamischer Inhalt“ aus.
+1. Wählen Sie das Feld **Notizen**, das Symbol „Dynamischer Inhalt“ und dann **Weitere anzeigen** aus.
 
 1. Wählen Sie **Kommentare** aus.
 

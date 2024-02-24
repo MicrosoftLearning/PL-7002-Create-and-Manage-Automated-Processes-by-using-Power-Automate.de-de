@@ -19,7 +19,7 @@ In diesem Lab erstellen Sie einen geplanten Flow.
   
 ## Voraussetzungen
 
-- Sie müssen **Lab 3: SharePoint** abgeschlossen haben.
+- Sie müssen Folgendes abgeschlossen haben: **Lab 3: SharePoint**
 
 ## Ausführliche Schritte
 
@@ -47,7 +47,7 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 1. Wählen Sie den Schritt **Serie** aus.
 
-1. Wählen Sie **Flow manuell auslösen** aus, und geben Sie `Daily` ein.
+1. Wählen Sie den Schrittnamen **Serie** aus, und geben Sie `Daily` ein.
 
 ### Aufgabe 1.3: Abfragen neuer Aufgaben
 
@@ -57,7 +57,7 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 1. Wählen Sie unter **SharePoint** die Option **Elemente abrufen** aus.
 
-1. Wählen Sie **Elemente abrufen** aus, und geben Sie `New tasks` ein.
+1. Wählen Sie den Schrittnamen **Elemente abrufen** aus, und geben Sie `New tasks` ein.
 
 1. Wählen Sie die **Power Automate-SharePoint-Site** aus.
 
@@ -97,11 +97,15 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 1. Wählen Sie das Feld **Schlüssel eingeben** aus, und geben Sie `Due` ein.
 
-1. Wählen Sie das Feld **Wert eingeben** und dann das Symbol „Dynamischer Inhalt“ aus.
+1. Wählen Sie das Feld **Wert eingeben** und das Symbol „Dynamischer Inhalt“ und dann **Weitere anzeigen** aus.
 
 1. Wählen Sie unter **Neue Aufgaben** die Option **Stichtag** aus.
 
     ![Screenshot: Aktion „Auswählen“.](../media/select-action.png)
+
+1. Wenn der Designer für den Ablauf automatisch eine oder mehrere For Each-Schleifen hinzugefügt hat, ziehen Sie den Select-Schritt außerhalb der Schleifen, und löschen Sie die Schleife(n).
+
+    ![Screenshot der Ablaufschritte ohne Schleifen](../media/flow-without-loops.png)
 
 ### Aufgabe 1.5: Erstellen einer Tabelle
 
@@ -111,7 +115,7 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 1. Wählen Sie unter **Datenvorgänge** die Option **HTML-Tabelle erstellen** aus.
 
-1. Wählen Sie **HTML-Tabelle erstellen** aus, und geben Sie `Format as HTML table` ein.
+1. Wählen Sie den Schrittnamen **HTML-Tabelle erstellen** aus, und geben Sie `Format as HTML table` ein.
 
 1. Wählen Sie das Feld **Von** und das Symbol „Dynamischer Inhalt“ aus.
 
@@ -127,7 +131,7 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 1. Wählen Sie unter **Office 365 Outlook** die Option **E-Mail senden (V2)** aus.
 
-1. Wählen Sie **E-Mail senden (V2)** aus, und geben Sie `Notify by email` ein.
+1. Wählen Sie den Schrittnamen **E-Mail senden (V2)** aus, und geben Sie `Notify by email` ein.
 
 1. Wählen Sie das Feld **An** und dann **Benutzerdefinierten Wert eingeben** aus.
 

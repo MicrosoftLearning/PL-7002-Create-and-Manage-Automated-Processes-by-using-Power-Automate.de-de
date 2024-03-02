@@ -49,9 +49,9 @@ In diesem Lab erstellen Sie einen Genehmigungsflow.
 
 1. Wählen Sie den Schritt **Wenn ein Element erstellt wird** aus.
 
-1. Wählen Sie **Wenn ein Element erstellt wird** aus, und geben Sie `New task` ein.
+1. Wählen Sie den Schritt **Wenn ein Element erstellt wird** aus, und geben Sie `New task` ein.
 
-1. Wählen Sie die **Power Automate-SharePoint-Site** aus.
+1. Wählen Sie die **SharePoint-Website für Power Automate aus**, die in der vorherigen Übung erstellt wurde. Wenn die Website nicht aufgeführt ist, wählen Sie **Benutzerdefinierten Wert eingeben** ein, und fügen Sie die URL der SharePoint-Website für Power Automate ein.
 
 1. Wählen Sie die Liste **Aufgaben** aus.
 
@@ -71,7 +71,7 @@ In diesem Lab erstellen Sie einen Genehmigungsflow.
 
 1. Wählen Sie **Genehmigen/ablehnen: Erste Antwort** als **Genehmigungstyp** aus.
 
-1. Wählen Sie **Starten und auf Genehmigung warten*** aus, und geben Sie `Approval` ein.
+1. Wählen Sie den Schritt **Starten und auf Genehmigung warten** aus, und geben Sie `Approval` ein.
 
 1. Wählen Sie das Feld **Titel** und anschließend das Symbol „Dynamischer Inhalt“ aus.
 
@@ -97,10 +97,6 @@ In diesem Lab erstellen Sie einen Genehmigungsflow.
 
 1. Wählen Sie **Bedingung** unter "**Steuerelement** aus.
 
-1. Wählen Sie **Speichern**.
-
-1. Wählen Sie die Schaltfläche „Zurück“ **<-** oben links in der Befehlsleiste aus.
-
 1. Wählen Sie auf der linken Seite das Feld **Wert auswählen** und anschließend das Symbol „Dynamischer Inhalt“ aus.
 
     ![Screenshot des dynamischen Inhalts für eine Bedingung](../media/add-condition.png)
@@ -121,7 +117,7 @@ In diesem Lab erstellen Sie einen Genehmigungsflow.
 
 1. Wählen Sie **Element aktualisieren** unter **SharePoint** aus.
 
-1. Wählen Sie **Element aktualisieren** aus, und geben Sie `Set task to approved` ein.
+1. Wählen Sie den Schritt **Element aktualisieren** aus, und geben Sie `Set task to approved` ein.
 
 1. Wählen Sie die **Power Automate-SharePoint-Site** aus.
 
@@ -145,7 +141,7 @@ In diesem Lab erstellen Sie einen Genehmigungsflow.
 
 1. Wählen Sie **Element aktualisieren** unter **SharePoint** aus.
 
-1. Wählen Sie **Element 1 aktualisieren** aus, und geben Sie `Set task to declined` ein.
+1. Wählen Sie den Schritt **Element 1 aktualisieren** aus, und geben Sie `Set task to declined` ein.
 
 1. Wählen Sie die **Power Automate-SharePoint-Site** aus.
 
@@ -161,7 +157,7 @@ In diesem Lab erstellen Sie einen Genehmigungsflow.
 
 1. Wählen Sie unter **Neue Aufgabe** die Option **Titel** aus.
 
-1. Wählen Sie **Ablehnen** als **Genehmigungsstatuswert** aus.
+1. Wählen Sie **Abgelehnt** als **Genehmigungsstatuswert** aus.
 
 1. Wählen Sie **Speichern**.
 
@@ -193,7 +189,7 @@ In diesem Lab erstellen Sie einen Genehmigungsflow.
 
 1. Wählen Sie das Datum und die Uhrzeit im Flow-Ausführungsverlauf aus.
 
-    > ** Hinweis: Die Funktionalität „Genehmigungen“ wird im Hintergrund installiert. Dies dauert ca. 10 Minuten.
+    > **Hinweis:** Die Funktionalität „Genehmigungen“ wird im Hintergrund installiert. Dies dauert ca. 10 Minuten.
 
 1. Wählen Sie im linken Menü die Registerkarte **Genehmigungen** aus.
 

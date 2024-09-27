@@ -29,9 +29,9 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 ### Aufgabe 1.1 – Erstellen des Triggers
 
-1. Navigieren Sie zum Power Automate-Portal <https://make.powerautomate.com>.
+1. Navigieren Sie zum Power Automate-Portal `https://make.powerautomate.com`.
 
-1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
+1. Vergewissern Sie sich, dass Sie sich in der Umgebung **Dev One** befinden.
 
 1. Wählen Sie im linken Menü die Registerkarte **+ Erstellen** aus.
 
@@ -43,11 +43,12 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Klicken Sie auf **Erstellen**.
 
+
 ### Aufgabe 1.2 – Hinzufügen von Benutzereingaben
 
 1. Wählen Sie den Schritt **Manuell einen Flow triggern** aus.
 
-1. Wählen Sie den Schritt **Manuell einen Flow auslösen** und geben Sie `Button clicked` ein.
+1. Wählen Sie die Schrittbezeichnung **Manuell einen Flow auslösen** aus und geben Sie `Button triggered` ein.
 
 1. Wählen Sie **Eingabe hinzufügen** aus.
 
@@ -73,13 +74,14 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
     ![Screenshot der Benutzereingabe.](../media/user-input.png)
 
+
 ### Aufgabe 1.3 – Aktion zum Erstellen von Verkaufschancen hinzufügen
 
 1. Wählen Sie unter dem Trigger-Schritt das Symbol **+** aus, und wählen Sie **Aktion hinzufügen** aus.
 
-1. Geben Sie `add row` in die Suche ein.
+1. Geben Sie `add row` in das Suchfeld ein.
 
-1. Wählen Sie **Neue Zeile hinzufügen** unter **Dataverse** aus.
+1. Wählen Sie **Eine neue Zeile hinzufügen** unter **Microsoft Dataverse**.
 
 1. Klicken Sie auf **Anmelden**.
 
@@ -87,19 +89,19 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Wählen Sie den Schritt **Neue Zeile hinzufügen** und geben Sie `New opportunity` ein.
 
-1. Wählen Sie **Opportunities** als **Tabellennamen** aus.
+1. Wählen Sie **Möglichkeiten** für **Tabellenname**.
 
-1. Wählen Sie das Feld **Kunde**, das Symbol „Dynamischer Inhalt“ und dann **Weitere anzeigen** aus.
+1. Geben Sie `/` in das Feld **Kunde** ein und wählen Sie **Dynamischen Inhalt einfügen**, wählen Sie **Mehr anzeigen**.
 
 1. Wählen Sie **Kundenname** aus.
 
-1. Wählen Sie das Feld **Opportunity-Betreff** aus und geben Sie `New opportunity` ein.
+1. Wählen Sie das Feld **Betreff der Möglichkeit** und geben Sie `New opportunity` ein.
 
-1. Wählen Sie Feld **Besitzername** aus und geben Sie `MOD Administrator` ein.
+1. Wählen Sie das Feld **Besitzername** und geben Sie `MOD Administrator` ein.
 
 1. Wählen Sie **Alle anzeigen** aus.
 
-1. Wählen Sie das Feld **Betrag** und dann das Symbol „Dynamischer Inhalt“ aus.
+1. Geben Sie `/` in das Feld **Betrag** ein und wählen Sie **Dynamischen Inhalt einfügen**.
 
 1. Wählen Sie **Potenzielles Sonderangebot** aus.
 
@@ -107,13 +109,14 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Wählen Sie **Kommentare** aus.
 
-1. Wählen Sie das Feld **Geschätztes Schließdatum** und das Ausdruckssymbol aus.
+1. Geben Sie `/` in das Feld **Geschätztes Abschlussdatum** ein und wählen Sie **Ausdruck einfügen**.
 
 1. Geben Sie den Ausdruck `addDays(utcNow(),30)` ein und wählen Sie **Hinzufügen** aus.
 
     ![Screenshot der neuen Opportunity-Aktion.](../media/new-opportunity-action.png)
 
 1. Wählen Sie **Speichern**.
+
 
 ## Übung 2 – Schaltflächen-Flow testen
 
@@ -139,12 +142,14 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Wählen Sie die **<-**-Schaltfläche „Zurück“ oben links in der Befehlsleiste aus.
 
+
 ### Aufgabe 2.2 – Überprüfen des erstellten Opportunity-Datensatzes
 
-1. Navigieren Sie zum Power Apps Maker-Portal <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
 1. Wählen Sie im linken Navigationsbereich **Tabellen** aus.
 
 1. Wählen Sie **Verkaufschance** aus.
+

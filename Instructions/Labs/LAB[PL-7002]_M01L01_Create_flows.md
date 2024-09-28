@@ -30,9 +30,9 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 ### Aufgabe 1.1: Auswählen einer Vorlage
 
-1. Navigieren Sie zum Power Automate-Portal <https://make.powerautomate.com>.
+1. Navigieren Sie zum Power Automate-Portal `https://make.powerautomate.com`.
 
-1. Wenn das Popupdialogfeld **Willkommen bei Power Automate** angezeigt wird, wählen Sie **Erste Schritte** aus.
+1. Wenn das Popup-Dialogfeld **Willkommen bei Power Automate** angezeigt wird, wählen Sie **Erste Schritte**.
 
 1. Wählen Sie die Umgebung **Dev One** aus.
 
@@ -42,7 +42,7 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Wählen Sie die Registerkarte **Schaltfläche** aus.
 
-1. Geben Sie `location` in das Suchfeld ein.
+1. Geben Sie `location` in das Feld **Suchvorlagen** ein.
 
     ![Screenshot von Flow-Vorlagen](../media/flow-templates.png)
 
@@ -56,9 +56,10 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Wählen Sie **Flow erstellen** aus.
 
-1. Wenn das Popupdialogfeld **Ihr Flow ist bereit** angezeigt wird, wählen Sie **Nicht mehr anzeigen** und **Verstanden** aus.
+1. Wenn das Pop-up-Dialogfeld **Ihr Flow ist bereit** angezeigt wird, wählen Sie **Dies nicht mehr anzeigen** und wählen Sie **Verstanden**.
 
     ![Screenshot von Flow-Details](../media/flow-details.png)
+
 
 ### Aufgabe 1.2: Ausführen des Flows
 
@@ -73,6 +74,7 @@ In diesem Lab erstellen Sie Cloud-Flows.
 1. Wählen Sie **Fertig** aus.
 
     ![Screenshot des Flow-Ausführungsverlaufs.](../media/run-history.png)
+
 
 ### Aufgabe 1.3: Überprüfen des Flows
 
@@ -100,6 +102,7 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Schließen Sie den Bereich **Flowprüfung**.
 
+
 ### Aufgabe 1.4: Testen des Flows
 
 1. Wählen Sie **Testen**, dann **Automatisch**, anschließend **Mit einem kürzlich verwendeten Trigger** und dann die Flowausführung aus.
@@ -110,17 +113,18 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Wählen Sie die Schaltfläche „Zurück“ **<-** oben links in der Befehlsleiste aus.
 
+
 ## Übung 2 – Erstellen eines Cloud-Flows mit CoPilot
 
 ### Aufgabe 2.1: Eingeben eines Prompts
 
-1. Navigieren Sie zum Power Automate-Portal <https://make.powerautomate.com>.
+1. Navigieren Sie zum Power Automate-Portal `https://make.powerautomate.com`. 
 
-1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
+1. Vergewissern Sie sich, dass Sie sich in der Umgebung **Dev One** befinden.
 
 1. Wählen Sie im linken Menü die Registerkarte **Home** aus.
 
-1. Geben Sie unter **Lassen Sie uns etwas automatisieren. Was soll es tun?** nun `Every day send me an email with the daily summary from MSN Weather` ein.
+1. Unter **Lassen Sie uns etwas automatisieren. Was soll es tun?** geben Sie `Every day send me an email with the daily summary from MSN Weather` ein.
 
     ![Screenshot des Copilot-Prompts](../media/copilot-prompt.png)
 
@@ -134,31 +138,31 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
     ![Screenshot des von Copilot erstellten Flows](../media/copilot-flow.png)
 
+
 ### Aufgabe 2.2: Konfigurieren des Flowschritts
 
 1. Wählen Sie den Schritt **Vorhersage für heute abrufen** aus.
 
-    ![Screenshot der Flowschrittparameter.](../media/flow-step-parameters.png)
-
 1. Geben Sie `Seattle` für **Ort** ein.
 
-1. Wählen Sie das **X** aus, um **Einheiten** zu löschen, und wählen Sie in der Dropdownliste **Imperial** aus.
+1. Wählen Sie **X**, um **Einheiten** zu löschen, und wählen Sie in der Dropdown-Liste **Imperial**.
 
-1. Wählen Sie **Speichern** aus.
+    ![Screenshot der Flowschrittparameter.](../media/flow-step-parameters.png)
 
-1. Den Flow testen
+1. Wählen Sie **Speichern**.
 
-1. Wählen Sie **Test** und **Manuell**, und dann **Test** aus.
+1. Um den Flow zu testen, wählen Sie **Test**, wählen Sie **Manuell** und wählen Sie dann **Flow ausführen**. Wählen Sie **Fertig** aus.
 
 1. Wählen Sie die Schaltfläche „Zurück“ **<-** oben links in der Befehlsleiste aus.
+
 
 ## Übung 3 – Erstellen eines Cloud-Flows von Grund auf neu
 
 ### Aufgabe 3.1: Erstellen des Triggers
 
-1. Navigieren Sie zum Power Automate-Portal <https://make.powerautomate.com>.
+1. Navigieren Sie zum Power Automate-Portal `https://make.powerautomate.com`.
 
-1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
+1. Vergewissern Sie sich, dass Sie sich in der Umgebung **Dev One** befinden.
 
 1. Wählen Sie im linken Menü die Registerkarte **+ Erstellen** aus.
 
@@ -166,13 +170,14 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Geben Sie `Important email` als **Flowname** ein.
 
-1. Geben Sie `email` bei allen Triggern in die Suche ein.
+1. Geben Sie `email arrives` in das Feld **Alle Trigger suchen** ein.
 
 1. Wählen Sie **Bei Eingang einer neuen E-Mail (V3)** aus.
 
     ![Screenshot des Dialogfelds zum Erstellen eines automatisierten Flows](../media/build-automated-flow.png)
 
 1. Klicken Sie auf **Erstellen**.
+
 
 ### Aufgabe 3.2: Konfigurieren des Triggers
 
@@ -187,6 +192,7 @@ In diesem Lab erstellen Sie Cloud-Flows.
 1. Wählen Sie für **Wichtigkeit** die Einstellung **Hoch** aus.
 
 1. Wählen Sie **Posteingang** als **Ordner**aus.
+
 
 ### Aufgabe 3.3: Hinzufügen einer Aktion
 
@@ -206,7 +212,7 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Geben Sie Ihre Mandantenbenutzer-ID als **Empfänger** ein.
 
-1. Wählen Sie das Feld **Benachrichtigungstext** und dann das Symbol „Dynamischer Inhalt“ aus.
+1. Geben Sie `/` in das Feld **Benachrichtigungstext** ein und wählen Sie **Dynamischen Inhalt einfügen** aus.
 
     ![Screenshot von dynamischem Inhalt](../media/flow-dynamic-content.png)
 
@@ -220,11 +226,12 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Wählen Sie die Schaltfläche „Zurück“ **<-** oben links in der Befehlsleiste aus.
 
+
 ## Übung 4 –Überwachen von Flows
 
 ### Aufgabe 4.1: Cloud-Flowaktivität
 
-1. Navigieren Sie zum Power Automate-Portal <https://make.powerautomate.com>.
+1. Navigieren Sie zum Power Automate-Portal `https://make.powerautomate.com`.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
@@ -237,3 +244,4 @@ In diesem Lab erstellen Sie Cloud-Flows.
 1. Wählen Sie im linken Menü die Registerkarte **Cloud-Flowaktivität** aus.
 
     ![Screenshot der Cloud-Flowaktivität](../media/cloud-flow-activity.png)
+

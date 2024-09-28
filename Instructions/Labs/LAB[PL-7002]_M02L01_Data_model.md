@@ -29,7 +29,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 ### Aufgabe 1.1: Erstellen der Opportunity-Tabelle
 
-1. Navigieren Sie zum Power Apps Maker-Portal <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
@@ -39,13 +39,14 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
     ![Screenshot des Erstellens einer Tabelle in Dataverse](../media/create-new-table-dataverse.png)
 
-1. Aktivieren Sie das **Stiftsymbol** neben „Neue Tabelle“.
+1. Wählen Sie **Tabelleneigenschaften bearbeiten** aus.
 
     ![Screenshot des neuen Tabellennamens](../media/table-name.png)
 
 1. Geben Sie für **Anzeigename** `Opportunity` ein.
 
 1. Wählen Sie **Speichern**.
+
 
 ### Aufgabe 1.2: Primäre Spalte
 
@@ -58,6 +59,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 1. Wählen Sie **Aktualisieren**.
 
 1. Klicken Sie auf **Erstellen**.
+
 
 ### Aufgabe 1.3: Hinzufügen von Spalten
 
@@ -91,7 +93,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Datentyp: **Einzelne Textzeile**
    1. Erforderlich: **Optional**
 
-1. Erweitern Sie **Erweiterte Option**, und geben Sie `200` für **Maximale Zeichenanzahl** ein.
+1. Klappen Sie **Erweiterte Optionen** auf und geben Sie `200` als **Maximale Zeichenanzahl** ein.
 
 1. Wählen Sie **Speichern**.
 
@@ -121,12 +123,13 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Wählen Sie **Speichern**.
 
+
 ### Aufgabe 1.4: Hinzufügen einer Auswahlspalte
 
 1. Wählen Sie im Bereich **„Opportunity“-Spalten und -Daten** **+** aus, und geben Sie im Bereich **Neue Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
 
    1. Anzeigename: `Status`
-   1. Datentyp: **Auswahl**
+   1. Datentyp: **Auswahl** > **Auswahl**
    1. Erforderlich: **Optional**
 
 1. Wählen Sie **Nein** für **Mit globaler Auswahl synchronisieren?** aus.
@@ -143,11 +146,12 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Wählen Sie **Speichern**.
 
+
 ## Übung 2: Erstellen einer Beziehung
 
 ### Aufgabe 2.1: Erstellen einer Lookupspalte
 
-1. Navigieren Sie zum Power Apps Maker-Portal unter <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
@@ -170,7 +174,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 ### Aufgabe 3.1: Hinzufügen von „Opportunity“-Datensätzen
 
-1. Navigieren Sie zum Power Apps Maker-Portal <https://make.powerapps.com>.
+1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
 
 1. Stellen Sie sicher, dass Sie sich in der Umgebung **Dev One** befinden.
 
@@ -186,8 +190,8 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Name des Besitzers: `MOD Administrator`
    1. Kunde: `Adventure Works`
    1. Geschätztes Abschlussdatum: **Datum im vorherigen Monat auswählen**
-   1. Status: **Geschlossen**
    1. Betrag: `10,000`
+   1. Status: **Geschlossen**
 
 1. Wählen Sie **Zeile unterhalb einfügen** aus, und geben Sie die folgenden Werte ein, oder wählen Sie sie aus:
 
@@ -204,8 +208,8 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Name des Besitzers: `MOD Administrator`
    1. Kunde: `Coho Winery`
    1. Geschätztes Abschlussdatum: **Zukünftiges Datum im nächsten Monat auswählen**
-   1. Status: **Neu**
    1. Betrag: `25,000`
+   1. Status: **Neu**
 
 1. Wählen Sie **Zeile unterhalb einfügen** aus, und geben Sie die folgenden Werte ein, oder wählen Sie sie aus:
 
@@ -213,9 +217,9 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Name des Besitzers: `MOD Administrator`
    1. Kunde: `Fourth Coffee`
    1. Geschätztes Abschlussdatum: **Zukünftiges Datum im nächsten Monat auswählen**
-   1. Status: **Öffnen**
    1. Betrag: `15,000`
+   1. Status: **Öffnen**
 
     ![Screenshot des Bereichs „Daten bearbeiten“](../media/edit-data.png)
 
-1. Schließen Sie die Registerkarte „Daten bearbeiten“.
+1. Schließen Sie die Registerkarte.

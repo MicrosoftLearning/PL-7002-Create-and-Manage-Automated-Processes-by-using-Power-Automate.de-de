@@ -82,19 +82,11 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
     ![Screenshot der Flow-Ausführungsdetails](../media/flow-run-collapsed.png)
 
-1. Wählen Sie den Schritt **Bedingung** aus, um die Flow-Schritte zu erweitern.
-
-    ![Screenshot der Flow-Ausführungsschritte](../media/flow-run-steps.png)
-
 1. Wählen Sie den Schritt **Vorhersage für heute abrufen** mit dem grünen Häkcken aus.
 
     ![Screenshot der Ausgabe der Flow-Ausführungsschritte](../media/flow-run-step.png)
 
 1. Wählen Sie **Bearbeiten** aus.
-
-1. Wählen Sie den Schritt **Bedingung** aus, um die Flow-Schritte zu erweitern.
-
-1. Wählen Sie **Bedingung erweitern** aus.
 
 1. Wählen Sie einen der Schritte unter **Pushbenachrichtigung senden** aus.
 
@@ -124,7 +116,7 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Wählen Sie im linken Menü die Registerkarte **Home** aus.
 
-1. Unter **Lassen Sie uns etwas automatisieren. Was soll es tun?** geben Sie `Every day send me an email with the daily summary from MSN Weather` ein.
+1. Unter **Automatisierung mit Copilot erstellen** geben Sie `Every day send me an email with the daily summary from MSN Weather` ein.
 
     ![Screenshot des Copilot-Prompts](../media/copilot-prompt.png)
 
@@ -151,7 +143,9 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Wählen Sie **Speichern**.
 
-1. Um den Flow zu testen, wählen Sie **Test**, wählen Sie **Manuell** und wählen Sie dann **Flow ausführen**. Wählen Sie **Fertig** aus.
+1. Um den Flow zu testen, wählen Sie **Testen**, wählen Sie **Manuell**, und wählen Sie dann **Testen**. 
+
+1. Wählen Sie **Flow ausführen** und dann **Fertig** aus.
 
 1. Wählen Sie die Schaltfläche „Zurück“ **<-** oben links in der Befehlsleiste aus.
 
@@ -198,6 +192,8 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Wählen Sie unter dem Trigger-Schritt das Symbol **+** und dann **Aktion hinzufügen** aus.
 
+1. Wenn Sie dazu aufgefordert werden, wählen Sie **Zulassen** für **In die Zwischenablage kopierte Texte und Bilder anzeigen**.
+
 1. Geben Sie `notification` in das Suchfeld ein.
 
     ![Screenshot der Aktionssuche](../media/search-action.png)
@@ -238,6 +234,8 @@ In diesem Lab erstellen Sie Cloud-Flows.
 1. Klicken Sie auf **... Weitere** im linken Menü.
 
     ![Screenshot weiterer Optionen für das Power Automate-Portal](../media/power-automate-menu.png)
+
+1. Wählen Sie **Alles entdecken** aus und suchen Sie im Abschnitt „Monitor“ nach **Cloud-Flow-Aktivität**.
 
 1. Wählen Sie das Symbol „Anheften“ als **Cloud-Flowaktivität** aus.
 

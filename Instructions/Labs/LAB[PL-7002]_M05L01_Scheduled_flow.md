@@ -82,7 +82,7 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 1. Wählen Sie für **Runtime** die Option **Integriert** aus.
 
-1. Wählen Sie unter **Datenvorgänge** die Option **Auswählen** aus.
+1. Wählen Sie **Auswählen** unter **Datenvorgang**.
 
 1. Wählen Sie das Feld **Von** und das Symbol „Dynamischer Inhalt“ aus.
 
@@ -102,7 +102,7 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 1. Wählen Sie das Feld **Eingabetaste** und geben Sie `Due` ein.
 
-1. Wählen Sie das Feld **Wert eingeben** und das Symbol „Dynamischer Inhalt“ und dann **Weitere anzeigen** aus.
+1. Wählen Sie das Feld **Wert eingeben** aus, klicken Sie auf das Symbol „Dynamischer Inhalt“ und wählen Sie dann **Weitere anzeigen** aus.
 
 1. Wählen Sie unter **Neue Aufgaben** die Option **Stichtag** aus.
 

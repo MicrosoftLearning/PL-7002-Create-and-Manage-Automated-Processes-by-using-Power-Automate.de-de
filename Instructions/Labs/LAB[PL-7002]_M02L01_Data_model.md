@@ -35,30 +35,22 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Wählen Sie im linken Navigationsbereich **Tabellen** aus.
 
-1. Wählen Sie **+ Neue Tabelle** und dann **Spalten und Daten hinzufügen** aus.
+1. Wählen Sie **+ Neue Tabelle**, und wählen Sie **Tabelle (erweiterte Eigenschaften)**.
 
     ![Screenshot des Erstellens einer Tabelle in Dataverse](../media/create-new-table-dataverse.png)
 
-1. Wählen Sie **Tabelleneigenschaften bearbeiten** aus.
-
-    ![Screenshot des neuen Tabellennamens](../media/table-name.png)
-
 1. Geben Sie für **Anzeigename** `Opportunity` ein.
-
-1. Wählen Sie **Speichern**.
 
 
 ### Aufgabe 1.2: Primäre Spalte
 
-1. Wählen Sie das Dropdown-Caretzeichen neben **Neue Spalte** und danach **Spalte bearbeiten** aus.
+1. Wählen Sie die Registerkarte **Primäre Spalte** neben der Registerkarte **Eigenschaften** aus.
 
     ![Screenshot der primären Spalte](../media/primary-column.png)
 
 1. Geben Sie für **Anzeigename** `Opportunity Subject` ein.
 
-1. Wählen Sie **Aktualisieren**.
-
-1. Klicken Sie auf **Erstellen**.
+1. Wählen Sie **Speichern**.
 
 
 ### Aufgabe 1.3: Hinzufügen von Spalten
@@ -86,6 +78,8 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Erforderlich: **Business erforderlich**
 
 1. Wählen Sie **Speichern**.
+
+1. Wählen Sie im Bereich **„Opportunity“-Spalten und -Daten** **+** aus, um eine neue Spalte hinzuzufügen.
 
 1. Geben Sie im Bereich **Neue Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
 

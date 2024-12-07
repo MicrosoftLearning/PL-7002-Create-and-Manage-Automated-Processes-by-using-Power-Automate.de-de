@@ -39,7 +39,7 @@ In diesem Lab erstellen Sie einen Genehmigungsflow.
 
 1. Geben Sie `Task approval` als **Flowname** ein.
 
-1. Geben Sie `SharePoint` in das Suchfeld ein.
+1. Geben Sie `SharePoint` unter „Alle Trigger suchen“ ein.
 
 1. Wählen Sie **Wenn ein Element erstellt wird** aus.
 
@@ -174,9 +174,9 @@ In diesem Lab erstellen Sie einen Genehmigungsflow.
 
 1. Navigieren Sie zur SharePoint-Website, und wählen Sie die Liste **Aufgaben** aus.
 
-1. Wählen Sie **+ Neue** aus, geben Sie die folgenden Daten ein, und wählen Sie **Speichern** aus:
+1. Wählen Sie **+ Neues Element hinzufügen** aus und geben Sie die folgenden Daten ein und klicken Sie auf **Speichern**:
 
-   1. Titel = `Approval test`
+   1. Titel = `Approval test`
    1. Beschreibung = `Test`
    1. Name des Besitzers = `MOD Administrator`
    1. Stichtag = **Heute**

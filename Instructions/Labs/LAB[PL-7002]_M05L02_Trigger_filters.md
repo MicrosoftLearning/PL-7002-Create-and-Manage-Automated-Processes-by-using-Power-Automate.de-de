@@ -107,7 +107,7 @@ In diesem Lab filtern Sie nach einem Updatetrigger.
 
 1. Wählen Sie **Opportunity-Betreff** aus **geänderter Opportunity** aus.
 
-1. Wählen Sie das Feld **Textkörper** und das Symbol „Dynamischer Inhalt“ und dann **Weitere anzeigen** aus.
+1. Wählen Sie das Feld **Textkörper** aus, klicken Sie auf das Symbol „Dynamischer Inhalt“ und wählen sie dann **Weitere anzeigen** aus.
 
 1. Wählen Sie **Status** aus **geänderter Opportunity** aus.
 

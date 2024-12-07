@@ -70,7 +70,7 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Wählen Sie **Nummer** aus.
 
-1. Geben Sie `Potential Sale` in **Eingabe** ein.
+1. Geben Sie `Potential Sale` in **Nummer** ein.
 
     ![Screenshot der Benutzereingabe.](../media/user-input.png)
 
@@ -83,7 +83,7 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Wählen Sie **Eine neue Zeile hinzufügen** unter **Microsoft Dataverse**.
 
-1. Klicken Sie auf **Anmelden**.
+1. Wählen Sie **Anmelden** aus
 
 1. Verwenden Sie Ihre Mandantenanmeldeinformationen.
 
@@ -91,15 +91,15 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Wählen Sie **Möglichkeiten** für **Tabellenname**.
 
-1. Geben Sie `/` in das Feld **Kunde** ein und wählen Sie **Dynamischen Inhalt einfügen**, wählen Sie **Mehr anzeigen**.
+1. Geben Sie `/` in das Feld **Kunde** ein und wählen Sie **Dynamischen Inhalt einfügen** aus und klicken Sie auf **Mehr anzeigen**.
 
 1. Wählen Sie **Kundenname** aus.
-
-1. Wählen Sie das Feld **Betreff der Möglichkeit** und geben Sie `New opportunity` ein.
 
 1. Wählen Sie das Feld **Besitzername** und geben Sie `MOD Administrator` ein.
 
 1. Wählen Sie **Alle anzeigen** aus.
+
+1. Wählen Sie das Feld **Betreff der Möglichkeit** und geben Sie `New opportunity` ein.
 
 1. Geben Sie `/` in das Feld **Betrag** ein und wählen Sie **Dynamischen Inhalt einfügen**.
 

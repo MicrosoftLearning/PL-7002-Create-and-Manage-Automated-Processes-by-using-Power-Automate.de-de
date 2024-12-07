@@ -109,25 +109,25 @@ In diesem Lab erstellen Sie eine SharePoint-Website und -Liste.
 
     ![Screenshot der SharePoint-Aufgabenliste.](../media/tasks-sharepoint-list.png)
 
-1. Wählen Sie **+ Neue** aus, geben Sie die folgenden Daten ein, und wählen Sie **Speichern** aus:
+1. Wählen Sie **+ Neues Element hinzufügen** aus und geben Sie die folgenden Daten ein und klicken Sie auf **Speichern**:
 
-   1. Titel =`Contact Jon`
+   1. Titel = `Contact Jon`
    1. Beschreibung =`Call or email`
    1. Name des Besitzers =`MOD Administrator`
    1. Deadline =**Gestern**
    1. Genehmigungsstatus =**Abgelehnt**
 
-1. Wählen Sie **+ Neue** aus, geben Sie die folgenden Daten ein, und wählen Sie **Speichern** aus:
+1. Wählen Sie **+ Neues Element hinzufügen** aus und geben Sie die folgenden Daten ein und klicken Sie auf **Speichern**:
 
-   1. Titel =`Create Quote`
+   1. Titel = `Create Quote`
    1. Beschreibung =`No discount`
    1. Name des Besitzers = `MOD Administrator`
    1. Deadline =**Heute**
    1. Genehmigungsstatus =**Genehmigt**
 
-1. Wählen Sie **+ Neue** aus, geben Sie die folgenden Daten ein, und wählen Sie **Speichern** aus:
+1. Wählen Sie **+ Neues Element hinzufügen** aus und geben Sie die folgenden Daten ein und klicken Sie auf **Speichern**:
 
-   1. Titel =`Visit Jim`
+   1. Titel = `Visit Jim`
    1. Beschreibung =`First visit`
    1. Name des Besitzers =`MOD Administrator`
    1. Deadline =**Morgen**

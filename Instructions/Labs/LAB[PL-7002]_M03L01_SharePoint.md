@@ -51,7 +51,7 @@ In diesem Lab erstellen Sie eine SharePoint-Website und -Liste.
 
     ![Screenshot der neuen SharePoint-Liste.](../media/new-sharepoint-list.png)
 
-1. Wählen Sie **Leere Liste** aus.
+1. Wählen Sie unter **Aus leerem Dokument erstellen** die Option **Liste**.
 
 1. Geben Sie `Tasks` als **Name** ein, und wählen Sie **Erstellen** aus.
 
@@ -60,7 +60,7 @@ In diesem Lab erstellen Sie eine SharePoint-Website und -Liste.
 1. Geben Sie im Bereich **Erstellen einer Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
 
    1. Name: `Description`
-   1. Datentyp: **Mehrere Textzeilen**
+   1. Typ: **Mehrere Textzeilen**
 
 1. Wählen Sie **Speichern**.
 
@@ -69,7 +69,7 @@ In diesem Lab erstellen Sie eine SharePoint-Website und -Liste.
 1. Geben Sie im Bereich **Erstellen einer Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
 
    1. Name: `Owner Name`
-   1. Datentyp: **Einzelne Textzeile**
+   1. Typ: **Einzelne Textzeile**
 
 1. Wählen Sie **Speichern**.
 
@@ -78,7 +78,7 @@ In diesem Lab erstellen Sie eine SharePoint-Website und -Liste.
 1. Geben Sie im Bereich **Erstellen einer Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
 
    1. Name: `Deadline`
-   1. Datentyp: **Datum und Uhrzeit**
+   1. Typ: **Datum und Uhrzeit**
 
 1. Wählen Sie **Speichern**.
 
@@ -87,7 +87,7 @@ In diesem Lab erstellen Sie eine SharePoint-Website und -Liste.
 1. Geben Sie im Bereich **Erstellen einer Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
 
    1. Name: `Approval Status`
-   1. Datentyp: **Auswahl**
+   1. Typ: **Auswahl**
    1. Auswahl 1 =`New`
    1. Auswahl 2 =`Approved`
    1. Auswahl 3 =`Declined`

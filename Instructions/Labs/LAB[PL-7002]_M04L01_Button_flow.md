@@ -111,7 +111,7 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Geben Sie `/` in das Feld **Geschätztes Abschlussdatum** ein und wählen Sie **Ausdruck einfügen**.
 
-1. Geben Sie den Ausdruck `addDays(utcNow(),30)` ein und wählen Sie **Hinzufügen** aus.
+1. Geben Sie den Ausdruck `utcNow()` ein und wählen Sie **Hinzufügen** aus.
 
     ![Screenshot der neuen Opportunity-Aktion.](../media/new-opportunity-action.png)
 

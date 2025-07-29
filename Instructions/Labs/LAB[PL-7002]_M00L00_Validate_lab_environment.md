@@ -43,3 +43,37 @@ In dieser Übung überprüfen Sie, ob Sie auf Power Apps zugreifen können.
 1. Überprüfen Sie oben rechts auf dem Bildschirm, ob die **Umgebung** auf **Dev One** festgelegt ist. Hier arbeiten Sie während des gesamten Labs. Wenn sie nicht festgelegt ist, wählen Sie die Umgebung **Dev One** aus.
 
     ![Umgebungsselektor.](../media/select-dev-one-environment.png)
+
+### Aufgabe 1.2 – Browser aktualisieren
+
+Das Anwenden der neuesten Updates auf den Browser verhindert Probleme in der nächsten Übung beim Erstellen von Apps.
+
+1. Öffnen Sie den **Microsoft Edge**-Browser.
+
+1. Wählen Sie die **Befehle (...)** oben rechts im Browser, wählen Sie **Hilfe und Feedback** und anschließend **Über Microsoft Edge**.
+
+1. Wenden Sie Updates an, und starten Sie den Browser bei Bedarf neu.
+
+## Übung 2 – Microsoft Teams
+
+In dieser Übung überprüfen Sie, ob Sie auf ein Team in Microsoft Teams zugreifen können.
+
+### Aufgabe 2.1 – Anmelden bei Microsoft Teams
+
+1. Vergewissern Sie sich, dass Ihre **Microsoft 365-Anmeldeinformationen** vom autorisierten Labhost verfügbar sind. Sie finden die Anmeldeinformationen auf der Registerkarte **Ressourcen**.
+
+1. Navigieren Sie auf einer neuen Browserregisterkarte zu `https://teams.microsoft.com`.
+
+1. Wenn Sie aufgefordert werden, Teams kennenzulernen, wählen Sie **Erste Schritte** aus, und schließen Sie das Popupfenster.
+
+### Aufgabe 2.2 – Erstellen eines Teams
+
+1. Wenn keine Teams angezeigt werden, wählen Sie oben rechts auf der Seite **Team erstellen** aus.
+
+1. Geben Sie `Contoso` in das Feld **Teamname** ein.
+
+1. Geben Sie `General` in the Feld **Name des ersten Kanals** ein.
+
+1. Klicken Sie auf **Erstellen**.
+
+1. Wählen Sie **Überspringen** aus.

@@ -9,14 +9,13 @@ lab:
 In diesem Lab erstellen Sie Cloud-Flows.
 
 ## Lernziele
-
-- Erstellen von Power Automate-Cloud-Flows aus einer Vorlage und mit CoPilot
+- Erstellen von Power Automate-Cloud-Flows aus einer Vorlage und mit Copilot
 - So erstellen Sie einen Power Automate-Cloud-Flow von Grund auf neu und fügen Aktionen hinzu
 
 ## Weiterführende Schritte des Lab
 
 - Cloud-Flow aus einer Vorlage erstellen
-- Erstellen eines Cloud-Flows mit CoPilot
+- Erstellen eines Cloud-Flows mit Copilot
 - Einen Cloud-Flow erstellen
 - Überwachen der Cloud-Flowaktivitäten
   
@@ -106,7 +105,7 @@ In diesem Lab erstellen Sie Cloud-Flows.
 1. Wählen Sie die Schaltfläche „Zurück“ **<-** oben links in der Befehlsleiste aus.
 
 
-## Übung 2 – Erstellen eines Cloud-Flows mit CoPilot
+## Übung 2 – Erstellen eines Cloud-Flows mit Copilot
 
 ### Aufgabe 2.1: Eingeben eines Prompts
 

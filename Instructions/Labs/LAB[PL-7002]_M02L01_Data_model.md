@@ -178,7 +178,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Wählen Sie im Bereich **„Opportunity“-Spalten und -Daten** das Dropdown-Caretzeichen neben **Bearbeiten** aus, und wählen Sie dann **Auf der neuen Registerkarte bearbeiten** aus.
 
-1. Geben Sie die folgenden Werte ein bzw. wählen Sie diese aus.
+1. Wählen Sie **+ Neue Zeile** aus, und geben Sie die folgenden Werte ein, oder wählen Sie sie aus:
 
    1. Thema zur Opportunity: `100 Widgets`
    1. Name des Besitzers: `MOD Administrator`

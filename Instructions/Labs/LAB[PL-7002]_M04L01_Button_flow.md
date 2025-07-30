@@ -83,6 +83,8 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Wählen Sie **Eine neue Zeile hinzufügen** unter **Microsoft Dataverse**.
 
+1. Geben Sie unter **Verbindungsname** den Namen `Dataverse` ein.
+
 1. Wählen Sie **Anmelden** aus
 
 1. Verwenden Sie Ihre Mandantenanmeldeinformationen.

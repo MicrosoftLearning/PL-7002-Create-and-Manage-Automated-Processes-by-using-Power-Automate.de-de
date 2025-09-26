@@ -43,7 +43,6 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Klicken Sie auf **Erstellen**.
 
-
 ### Aufgabe 1.2 – Hinzufügen von Benutzereingaben
 
 1. Wählen Sie den Schritt **Manuell einen Flow triggern** aus.
@@ -74,7 +73,6 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
     ![Screenshot der Benutzereingabe.](../media/user-input.png)
 
-
 ### Aufgabe 1.3 – Aktion zum Erstellen von Verkaufschancen hinzufügen
 
 1. Wählen Sie unter dem Trigger-Schritt das Symbol **+** aus, und wählen Sie **Aktion hinzufügen** aus.
@@ -97,19 +95,15 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Wählen Sie **Kundenname** aus.
 
+1. Wählen Sie das Feld **Betreff der Möglichkeit** und geben Sie `New opportunity` ein.
+
 1. Wählen Sie das Feld **Besitzername** und geben Sie `MOD Administrator` ein.
 
 1. Wählen Sie **Alle anzeigen** aus.
 
-1. Wählen Sie das Feld **Betreff der Möglichkeit** und geben Sie `New opportunity` ein.
-
 1. Geben Sie `/` in das Feld **Betrag** ein und wählen Sie **Dynamischen Inhalt einfügen**.
 
 1. Wählen Sie **Potenzielles Sonderangebot** aus.
-
-1. Wählen Sie das Feld **Notizen**, das Symbol „Dynamischer Inhalt“ und dann **Weitere anzeigen** aus.
-
-1. Wählen Sie **Kommentare** aus.
 
 1. Geben Sie `/` in das Feld **Geschätztes Abschlussdatum** ein und wählen Sie **Ausdruck einfügen**.
 
@@ -117,8 +111,11 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
     ![Screenshot der neuen Opportunity-Aktion.](../media/new-opportunity-action.png)
 
-1. Wählen Sie **Speichern**.
+1. Wählen Sie das Feld **Notizen**, das Symbol „Dynamischer Inhalt“ und dann **Weitere anzeigen** aus.
 
+1. Wählen Sie **Kommentare** aus.
+
+1. Wählen Sie **Speichern**.
 
 ## Übung 2 – Schaltflächen-Flow testen
 
@@ -144,7 +141,6 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 
 1. Wählen Sie die **<-**-Schaltfläche „Zurück“ oben links in der Befehlsleiste aus.
 
-
 ### Aufgabe 2.2 – Überprüfen des erstellten Opportunity-Datensatzes
 
 1. Navigieren Sie zum Power Apps Maker-Portal `https://make.powerapps.com`.
@@ -154,4 +150,3 @@ In diesem Lab erstellen Sie einen Schaltflächen-Flow.
 1. Wählen Sie im linken Navigationsbereich **Tabellen** aus.
 
 1. Wählen Sie **Verkaufschance** aus.
-

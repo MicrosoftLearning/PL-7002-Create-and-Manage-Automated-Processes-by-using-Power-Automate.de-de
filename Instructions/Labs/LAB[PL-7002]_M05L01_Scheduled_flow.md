@@ -16,7 +16,7 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 - Geplanten Flow erstellen
 - Abfragen einer SharePoint-Liste
-- Datenvorgänge verwenden
+- Verwenden von Datenvorgängen
 - Testen des Flows
   
 ## Voraussetzungen
@@ -27,7 +27,7 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 ## Übung 1: Erstellen eines geplanten Flows
 
-### Aufgabe 1.1: Erstellen des Triggers
+### Aufgabe 1.1 – Erstellen des Triggers
 
 1. Navigieren Sie zum Power Automate-Portal `https://make.powerautomate.com`.
 
@@ -45,13 +45,11 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 1. Klicken Sie auf **Erstellen**.
 
-
 ### Aufgabe 1.2: Konfigurieren des Triggers
 
 1. Wählen Sie den Schritt **Serie** aus.
 
 1. Wählen Sie die Schrittbezeichnung **Wiederholung** und geben Sie `Daily` ein.
-
 
 ### Aufgabe 1.3: Abfragen neuer Aufgaben
 
@@ -67,12 +65,11 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 1. Wählen Sie die Liste **Aufgaben** aus.
 
-1. Wählen Sie unter **Erweiterte Parameter** die Option **Alle anzeigen**.
+1. Wählen Sie neben **Erweiterte Parameter** die Option **Alle anzeigen** aus.
 
 1. Wählen Sie das Feld **Filterabfrage** aus, und geben Sie `ApprovalStatus eq 'New'` ein.
 
     ![Screenshot: Abfrage der Listenelemente.](../media/list-items.png)
-
 
 ### Aufgabe 1.4: Auswählen von Spalten
 
@@ -80,7 +77,9 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 1. Geben Sie `Select` in das Suchfeld ein.
 
-1. Wählen Sie für **Runtime** die Option **Integriert** aus.
+1. Wählen Sie **Integriert** aus.
+
+    ![Screenshot: Suchen nach „Aktion auswählen“](../media/add-select-action.png)
 
 1. Wählen Sie **Auswählen** unter **Datenvorgang**.
 
@@ -112,12 +111,13 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
     ![Screenshot der Ablaufschritte ohne Schleifen](../media/flow-without-loops.png)
 
-
 ### Aufgabe 1.5: Erstellen einer Tabelle
 
 1. Wählen Sie unter dem Schritt „Auswählen“ das Symbol **+** und dann **Aktion hinzufügen** aus.
 
 1. Geben Sie `create html` in das Suchfeld ein.
+
+1. Wählen Sie **Integriert** aus.
 
 1. Wählen Sie **HTML-Tabelle erstellen** unter **Datenvorgang** aus.
 
@@ -129,7 +129,6 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
     ![Screenshot: Aktion „HTML-Tabelle formatieren“.](../media/format-html-action.png)
 
-
 ### Aufgabe 1.6: Senden einer E-Mail
 
 1. Wählen Sie das Symbol **+** unter dem Schritt **Als HTML-Tabelle formatieren** und wählen Sie **Eine Aktion hinzufügen**.
@@ -140,9 +139,9 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 
 1. Wählen Sie den Schritt **E-Mail senden (V2)** und geben Sie `Notify by email` ein.
 
-1. Wählen Sie das Feld **An** und dann **Benutzerdefinierten Wert eingeben** aus.
+1. Wählen Sie das Feld **An** aus, und geben Sie `MOD Administrator` ein.
 
-1. Geben Sie für **An** Ihre Mandantenbenutzer-ID ein.
+1. Wählen Sie Ihre Mandantenbenutzer-ID für **An** aus.
 
 1. Wählen Sie das Feld **Betreff** und geben Sie `Daily Tasks` ein.
 
@@ -151,7 +150,6 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 1. Wählen Sie unter **Als HTML-Tabelle formatieren** die Option **Ausgabe** aus.
 
 1. Wählen Sie **Speichern**.
-
 
 ## Übung 2: Testen des geplanten Flows
 
@@ -170,4 +168,3 @@ In diesem Lab erstellen Sie einen geplanten Flow.
 1. Wählen Sie im Power Automate-Portal oben links im Browserfenster das **App-Startfeld** und dann **Outlook** aus.
 
     ![Screenshot: Aktion „HTML-Tabelle formatieren“.](../media/daily-tasks-email.png)
-

@@ -41,7 +41,6 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Geben Sie für **Anzeigename** `Opportunity` ein.
 
-
 ### Aufgabe 1.2: Primäre Spalte
 
 1. Wählen Sie die Registerkarte **Primäre Spalte** neben der Registerkarte **Eigenschaften** aus.
@@ -51,7 +50,6 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 1. Geben Sie für **Anzeigename** `Opportunity Subject` ein.
 
 1. Wählen Sie **Speichern**.
-
 
 ### Aufgabe 1.3: Hinzufügen von Spalten
 
@@ -111,18 +109,17 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 1. Wählen Sie im Bereich **„Opportunity“-Spalten und -Daten** **+** aus, und geben Sie im Bereich **Neue Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
 
    1. Anzeigename: `Notes`
-   1. Datentyp: **Mehrere Textzeilen**
+   1. Datentyp: **Text** > **Mehrere Textzeilen** > **Nur-Text**
    1. Format: **Text**
    1. Erforderlich: **Optional**
 
 1. Wählen Sie **Speichern**.
 
-
 ### Aufgabe 1.4: Hinzufügen einer Auswahlspalte
 
 1. Wählen Sie im Bereich **„Opportunity“-Spalten und -Daten** **+** aus, und geben Sie im Bereich **Neue Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
 
-   1. Anzeigename: `Status`
+   1. Anzeigename: `Opportunity Status`
    1. Datentyp: **Auswahl** > **Auswahl**
    1. Erforderlich: **Optional**
 
@@ -140,7 +137,6 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 
 1. Wählen Sie **Speichern**.
 
-
 ## Übung 2: Erstellen einer Beziehung
 
 ### Aufgabe 2.1: Erstellen einer Lookupspalte
@@ -156,7 +152,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
 1. Wählen Sie im Bereich **„Opportunity“-Spalten und -Daten** **+** aus, und geben Sie im Bereich **Neue Spalte** die folgenden Werte ein, oder wählen Sie sie aus:
 
    1. Anzeigename: `Account`
-   1. Datentyp: **Suche**
+   1. Datentyp: **Suche** > **Suche**
    1. Erforderlich: **Optional**
    1. Verwandte Tabelle: **Konto**
 
@@ -185,7 +181,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Kunde: `Adventure Works`
    1. Geschätztes Abschlussdatum: **Datum im vorherigen Monat auswählen**
    1. Betrag: `10,000`
-   1. Status: **Geschlossen**
+   1. Status der Verkaufschance: **Geschlossen**
 
 1. Wählen Sie **Zeile unterhalb einfügen** aus, und geben Sie die folgenden Werte ein, oder wählen Sie sie aus:
 
@@ -193,7 +189,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Name des Besitzers: `MOD Administrator`
    1. Kunde: `Fabrikam`
    1. Geschätztes Abschlussdatum: **Zukünftiges Datum im aktuellen Monat auswählen**
-   1. Status: **Neu**
+   1. Status der Verkaufschance: **Neu**
    1. Betrag: `50,000`
 
 1. Wählen Sie **Zeile unterhalb einfügen** aus, und geben Sie die folgenden Werte ein, oder wählen Sie sie aus:
@@ -203,7 +199,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Kunde: `Coho Winery`
    1. Geschätztes Abschlussdatum: **Zukünftiges Datum im nächsten Monat auswählen**
    1. Betrag: `25,000`
-   1. Status: **Neu**
+   1. Status der Verkaufschance: **Neu**
 
 1. Wählen Sie **Zeile unterhalb einfügen** aus, und geben Sie die folgenden Werte ein, oder wählen Sie sie aus:
 
@@ -212,7 +208,7 @@ In diesem Lab erstellen Sie Dataverse-Tabellen und -Spalten.
    1. Kunde: `Fourth Coffee`
    1. Geschätztes Abschlussdatum: **Zukünftiges Datum im nächsten Monat auswählen**
    1. Betrag: `15,000`
-   1. Status: **Öffnen**
+   1. Status der Verkaufschance: **Offen**
 
     ![Screenshot des Bereichs „Daten bearbeiten“](../media/edit-data.png)
 

@@ -38,7 +38,7 @@ In diesem Lab filtern Sie nach einem Updatetrigger.
 
 1. Wählen Sie unter **Schema** **Spalten** aus.
 
-1. Wählen Sie die Spalte **Status** aus.
+1. Wählen Sie die Spalte **Verkaufschancenstatus** aus.
 
     ![Screenshot der Statusspalten.](../media/opportunity-status-column.png)
 
@@ -48,8 +48,7 @@ In diesem Lab filtern Sie nach einem Updatetrigger.
 
 1. Kopieren Sie den **Logischen Namen** zur Verwendung im Flow.
 
-   > **Hinweis:** Das Präfix für Ihre Statusspalte kann sich unterscheiden.
-
+   > **Hinweis:** Das Präfix für die Spalte „Verkaufschancenstatus“ kann sich unterscheiden.
 
 ## Übung 2 – Erstellen eines automatisierten Flows
 
@@ -71,7 +70,6 @@ In diesem Lab filtern Sie nach einem Updatetrigger.
 
 1. Klicken Sie auf **Erstellen**.
 
-
 ### Aufgabe 2.2: Den Trigger konfigurieren
 
 1. Wählen Sie den Schritt **Wann eine Zeile hinzugefügt, geändert oder gelöscht wird** aus.
@@ -86,7 +84,6 @@ In diesem Lab filtern Sie nach einem Updatetrigger.
 
     ![Screenshot des Triggers zu Zeilen Aktualisierung.](../media/update-trigger.png)
 
-
 ### Aufgabe 2.3: E-Mail senden
 
 1. Wählen Sie unter dem Trigger-Schritt das Symbol **+** aus, und wählen Sie **Aktion hinzufügen** aus.
@@ -97,7 +94,7 @@ In diesem Lab filtern Sie nach einem Updatetrigger.
 
 1. Wählen Sie den Schritt **E-Mail senden (V2)** und geben Sie `Notify by email` ein.
 
-1. Wählen Sie das Feld **An** und dann **Benutzerdefinierten Wert eingeben** aus.
+1. Wählen Sie das Feld **An** aus, und geben Sie `MOD Administrator` ein.
 
 1. Geben Sie für **An** Ihre Mandantenbenutzer-ID ein.
 
@@ -109,25 +106,19 @@ In diesem Lab filtern Sie nach einem Updatetrigger.
 
 1. Wählen Sie das Feld **Textkörper** aus, klicken Sie auf das Symbol „Dynamischer Inhalt“ und wählen sie dann **Weitere anzeigen** aus.
 
-1. Wählen Sie **Status** aus **geänderter Opportunity** aus.
-
+1. Wählen Sie unter **Verkaufschance geändert** die Option **Verkaufschancenstatus** aus.
 
 ### Aufgabe 2.4 – Spaltenfilter
 
 1. Wählen Sie den Triggerschritt **Opportunity geändert** aus.
 
-1. Wählen Sie **Alle anzeigen** aus.
-
-1. Wählen Sie das Feld **Spalten auswählen** und geben Sie den **Logischen Namen** aus der vorherigen Übung ein, zum Beispiel: `cr977_status`
+1. Wählen Sie das Feld **Spalten auswählen** und geben Sie den **Logischen Namen** aus der vorherigen Übung ein, zum Beispiel: `cr977_opportunitystatus`
 
    > **Hinweis:** Das Präfix für Ihre Statusspalte unterscheidet sich.
-
 
 ### Aufgabe 2.5 – Zeilenfilter
 
 1. Wählen Sie den Schritt **geänderte Opportunity** aus.
-
-1. Wählen Sie **Alle anzeigen** aus.
 
 1. Wählen Sie das Feld **Filterzeilen** und geben Sie `cr977_status eq 3` unter Verwendung des **Logischen Namens** aus der vorherigen Übung ein.
 
@@ -138,4 +129,3 @@ In diesem Lab filtern Sie nach einem Updatetrigger.
 1. Wählen Sie **Speichern**.
 
 1. Wählen Sie die Schaltfläche **<-****Zurück** oben links in der Befehlsleiste.
-

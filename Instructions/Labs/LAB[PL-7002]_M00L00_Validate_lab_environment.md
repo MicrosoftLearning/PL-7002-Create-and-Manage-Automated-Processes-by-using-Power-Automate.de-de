@@ -38,7 +38,9 @@ In dieser Übung überprüfen Sie, ob Sie auf Power Apps zugreifen können.
 
 1. Optional können Sie **Ja** auswählen, um angemeldet zu bleiben.
 
-1. Wenn Sie zur Eingabe von Kontaktinformationen aufgefordert werden, behalten Sie für Land/Region die Standardwerte bei, geben Sie `0123456789` als Telefonnummer ein, und wählen Sie **Absenden** aus.
+1. Wählen Sie optional Nein, danke aus, um sich bei Microsoft Edge anzumelden.
+
+1. Wenn Sie zur Eingabe von Kontaktinformationen aufgefordert werden, behalten Sie für Land/Region die Standardwerte bei, geben Sie `0123456789` als Telefonnummer ein, und wählen Sie **Übermitteln** aus.
 
 1. Überprüfen Sie oben rechts auf dem Bildschirm, ob die **Umgebung** auf **Dev One** festgelegt ist. Hier arbeiten Sie während des gesamten Labs. Wenn sie nicht festgelegt ist, wählen Sie die Umgebung **Dev One** aus.
 
@@ -65,6 +67,10 @@ In dieser Übung überprüfen Sie, ob Sie auf ein Team in Microsoft Teams zugrei
 1. Navigieren Sie auf einer neuen Browserregisterkarte zu `https://teams.microsoft.com`.
 
 1. Wenn Sie aufgefordert werden, Teams kennenzulernen, wählen Sie **Erste Schritte** aus, und schließen Sie das Popupfenster.
+
+1. Erweitern Sie **Teams und Kanal**.
+
+1. Wählen Sie **Alle Teams anzeigen** aus.
 
 ### Aufgabe 2.2 – Erstellen eines Teams
 

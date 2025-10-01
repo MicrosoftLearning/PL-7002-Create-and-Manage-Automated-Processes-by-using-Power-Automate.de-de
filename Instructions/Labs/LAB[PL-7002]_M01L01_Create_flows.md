@@ -9,6 +9,7 @@ lab:
 In diesem Lab erstellen Sie Cloud-Flows.
 
 ## Lernziele
+
 - Erstellen von Power Automate-Cloud-Flows aus einer Vorlage und mit Copilot
 - So erstellen Sie einen Power Automate-Cloud-Flow von Grund auf neu und fügen Aktionen hinzu
 
@@ -59,25 +60,31 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
     ![Screenshot von Flow-Details](../media/flow-details.png)
 
-
 ### Aufgabe 1.2: Ausführen des Flows
 
 1. Klicken Sie auf **Run** (Ausführen).
 
 1. Wenn Sie dazu aufgefordert werden, wählen Sie für **Standort freigeben** **Zulassen** aus.
 
-1. Wählen Sie **Continue** (Weiter) aus.
+    ![Screenshot: Popup „Speicherort“](../media/allow-location.png)
+
+1. Wählen Sie **Weiter**.
 
 1. Wählen Sie **Flow ausführen** aus.
 
 1. Wählen Sie **Fertig** aus.
 
-    ![Screenshot des Flow-Ausführungsverlaufs.](../media/run-history.png)
+1. Warten Sie, bis der Flow abgeschlossen ist.
 
+    ![Screenshot des Flow-Ausführungsverlaufs.](../media/flow-run-history.png)
 
 ### Aufgabe 1.3: Überprüfen des Flows
 
 1. Wählen Sie das Datum und die Uhrzeit im Flow-Ausführungsverlauf aus.
+
+1. Erweitern Sie die **Bedingung**.
+
+1. Erweitern Sie den Pfad **False**.
 
     ![Screenshot der Flow-Ausführungsdetails](../media/flow-run-collapsed.png)
 
@@ -85,14 +92,13 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
     ![Screenshot der Ausgabe der Flow-Ausführungsschritte](../media/flow-run-step.png)
 
-1. Wählen Sie **Bearbeiten** aus.
+1. Wählen Sie **Bearbeiten** aus, und erweitern Sie die Flowschritte.
 
 1. Wählen Sie einen der Schritte unter **Pushbenachrichtigung senden** aus.
 
 1. Wählen Sie **Flowprüfung** aus. Es sollten keine Fehler oder Warnungen auftreten.
 
 1. Schließen Sie den Bereich **Flowprüfung**.
-
 
 ### Aufgabe 1.4: Testen des Flows
 
@@ -104,12 +110,11 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Wählen Sie die Schaltfläche „Zurück“ **<-** oben links in der Befehlsleiste aus.
 
-
 ## Übung 2 – Erstellen eines Cloud-Flows mit Copilot
 
 ### Aufgabe 2.1: Eingeben eines Prompts
 
-1. Navigieren Sie zum Power Automate-Portal `https://make.powerautomate.com`. 
+1. Navigieren Sie zum Power Automate-Portal `https://make.powerautomate.com`.
 
 1. Vergewissern Sie sich, dass Sie sich in der Umgebung **Dev One** befinden.
 
@@ -125,10 +130,11 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Wählen Sie **Beibehalten und fortfahren** aus.
 
+    ![Screenshot: Seite „Copilot-Überprüfung“](../media/copilot-review.png)
+
 1. Wählen Sie **Flow erstellen** aus.
 
     ![Screenshot des von Copilot erstellten Flows](../media/copilot-flow.png)
-
 
 ### Aufgabe 2.2: Konfigurieren des Flowschritts
 
@@ -136,18 +142,25 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Geben Sie `Seattle` für **Ort** ein.
 
-1. Wählen Sie **X**, um **Einheiten** zu löschen, und wählen Sie in der Dropdown-Liste **Imperial**.
+1. Wählen Sie in der Dropdownliste **Einheiten** den Eintrag **Imperial** aus.
 
     ![Screenshot der Flowschrittparameter.](../media/flow-step-parameters.png)
 
 1. Wählen Sie **Speichern**.
 
-1. Um den Flow zu testen, wählen Sie **Testen**, wählen Sie **Manuell**, und wählen Sie dann **Testen**. 
+1. Wenn für die Verbindung *shared_msnweather* ein Fehler angezeigt wird, wählen Sie unten rechts in der Aktion **Vorhersage für heute abrufen** das Symbol aus. Wählen Sie anschließend **Verbindungsreferenz ändern** > **Neu hinzufügen** > **Neu erstellen** > **Speichern** aus.
+
+    ![Screenshot: Aktion „Vorhersage für heute abrufen“](../media/msn-connection.png)
+
+1. Wenn für die Verbindung *shared_office365users* ein Fehler angezeigt wird, wählen Sie unten rechts in der Aktion **Mein Profil abrufen** das Symbol aus. Wählen Sie anschließend **Verbindungsreferenz ändern** > **Neu hinzufügen** > **Anmelden** > **Speichern** aus.
+
+1. Wenn weiterhin Fehler bei den Verbindungen auftreten, wählen Sie oben links auf der Befehlsleiste die Schaltfläche „Zurück“ **<-** aus, und starten Sie diese Übung neu.
+
+1. Um den Flow zu testen, wählen Sie **Testen**, wählen Sie **Manuell**, und wählen Sie dann **Testen**.
 
 1. Wählen Sie **Flow ausführen** und dann **Fertig** aus.
 
 1. Wählen Sie die Schaltfläche „Zurück“ **<-** oben links in der Befehlsleiste aus.
-
 
 ## Übung 3 – Erstellen eines Cloud-Flows von Grund auf neu
 
@@ -171,7 +184,6 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Klicken Sie auf **Erstellen**.
 
-
 ### Aufgabe 3.2: Konfigurieren des Triggers
 
 1. Wählen Sie den Schritt **Bei Eingang einer neuen E-Mail (V3)** aus.
@@ -185,7 +197,6 @@ In diesem Lab erstellen Sie Cloud-Flows.
 1. Wählen Sie für **Wichtigkeit** die Einstellung **Hoch** aus.
 
 1. Wählen Sie **Posteingang** als **Ordner**aus.
-
 
 ### Aufgabe 3.3: Hinzufügen einer Aktion
 
@@ -207,7 +218,7 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Geben Sie Ihre Mandantenbenutzer-ID als **Empfänger** ein.
 
-1. Geben Sie `/` in das Feld **Benachrichtigungstext** ein und wählen Sie **Dynamischen Inhalt einfügen** aus.
+1. Geben Sie `/` in das Feld **Benachrichtigungstext** ein, und wählen Sie **Dynamischen Inhalt einfügen** aus.
 
     ![Screenshot von dynamischem Inhalt](../media/flow-dynamic-content.png)
 
@@ -220,7 +231,6 @@ In diesem Lab erstellen Sie Cloud-Flows.
 1. Wählen Sie **Speichern**.
 
 1. Wählen Sie die Schaltfläche „Zurück“ **<-** oben links in der Befehlsleiste aus.
-
 
 ## Übung 4 –Überwachen von Flows
 
@@ -236,9 +246,10 @@ In diesem Lab erstellen Sie Cloud-Flows.
 
 1. Wählen Sie **Alles entdecken** aus und suchen Sie im Abschnitt „Monitor“ nach **Cloud-Flow-Aktivität**.
 
+    ![Screenshot weiterer Optionen für das Power Automate-Portal](../media/discover-cloud-flow-activity.png)
+
 1. Wählen Sie das Symbol „Anheften“ als **Cloud-Flowaktivität** aus.
 
 1. Wählen Sie im linken Menü die Registerkarte **Cloud-Flowaktivität** aus.
 
     ![Screenshot der Cloud-Flowaktivität](../media/cloud-flow-activity.png)
-

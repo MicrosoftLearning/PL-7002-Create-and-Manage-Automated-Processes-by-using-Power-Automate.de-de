@@ -31,6 +31,8 @@ In diesem Lab erstellen Sie eine SharePoint-Website und -Liste.
 
 1. Wählen Sie das **App-Startfeld** oben links im Browserfenster und dann **SharePoint**.
 
+    ![Screenshot:App-Startfeld zum Starten von SharePoint](../media/app-launcher.png)
+
 1. Wenn das Popup-Dialogfeld **Willkommen auf der SharePoint-Startseite** angezeigt wird, wählen Sie **X** aus, um das Dialogfeld zu schließen.
 
 1. Wählen Sie in SharePoint **+ Website erstellen** aus.
@@ -100,7 +102,6 @@ In diesem Lab erstellen Sie eine SharePoint-Website und -Liste.
 
 1. Kopieren Sie den ersten Teil der URL der SharePoint-Website, z. B. `https://m365x99999999.sharepoint.com/sites/PowerAutomate/`.
 
-
 ## Übung 2 – Hinzufügen einer SharePoint-Datenliste
 
 ### Aufgabe 2.1 – Hinzufügen von Daten
@@ -134,4 +135,3 @@ In diesem Lab erstellen Sie eine SharePoint-Website und -Liste.
    1. Genehmigungsstatus =**Neu**
 
     ![Screenshot der SharePoint-Aufgabendaten.](../media/tasks-data.png)
-
